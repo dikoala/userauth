@@ -38,3 +38,4 @@
 
 Notes:
 Both /update and /logout APIs need a bearer token to work. Bearer token is generated upon /login.
+Use the correct PIN that is generated and saved from the database to /confirm registration
