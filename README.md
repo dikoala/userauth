@@ -6,7 +6,7 @@
 
 3) cd userauth
 
-4) cd master
+4) git checkout master
 
 5) Run composer install
 
