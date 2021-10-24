@@ -1,3 +1,5 @@
+User authentication using Laravel Sanctum
+
 1) Clone the repository with git clone
 
 2) Copy .env.example file to .env and edit database credentials there
