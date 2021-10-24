@@ -4,33 +4,35 @@
 
 2) Copy .env.example file to .env and edit database credentials there
 
-3) cd master
+3) cd userauth
 
-4) Run composer install
+4) cd master
 
-5) Run composer update
+5) Run composer install
 
-6) Run php artisan key:generate
+6) Run composer update
 
-7) Run php artisan migrate
+7) Run php artisan key:generate
 
-8) Run php artisan storage:link (to create a symlink for uploaded avatars)
+8) Run php artisan migrate
 
-9) Run php artisan serve (To run as server api)
+9) Run php artisan storage:link (to create a symlink for uploaded avatars)
 
-10) These are the APIs
+11) Run php artisan serve (To run as server api)
 
-11) http://localhost:8000/api/register
+12) These are the APIs
 
-12) http://localhost:8000/api/login
+13) http://localhost:8000/api/register
 
-13) http://localhost:8000/api/confirm (To confirm registration with a PIN)
+14) http://localhost:8000/api/login
 
-14) http://localhost:8000/api/update
+15) http://localhost:8000/api/confirm (To confirm registration with a PIN)
 
-15) http://localhost:8000/api/logout
+16) http://localhost:8000/api/update
 
-16) Postman collection to test the process using the above APIs
+17) http://localhost:8000/api/logout
+
+18) Postman collection to test the process using the above APIs
 
     - https://www.dropbox.com/s/0tgx7ya7twbz0zx/UserAuth.postman_collection.json?dl=0
 
