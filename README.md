@@ -1,4 +1,4 @@
-User authentication using Laravel Sanctum
+<h1>User authentication using Laravel Sanctum</h1>
 
 1) Clone the repository with git clone
 
